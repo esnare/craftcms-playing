@@ -1,0 +1,9 @@
+name: craft
+recipe: lamp
+config:
+  webroot: web
+
+services:
+  appserver:
+    run:
+      - composer install
