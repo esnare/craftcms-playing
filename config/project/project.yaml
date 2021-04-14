@@ -1,8 +1,13 @@
-dateModified: 1618360561
+dateModified: 1618366233
 email:
   fromEmail: admin@admin.com
   fromName: Cfraft
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

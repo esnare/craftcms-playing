@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  fb05c0e6-1896-47eb-92ba-967a1695cccb: # Cfraft
+    enabledByDefault: true
+    hasUrls: true
+    template: home
+    uriFormat: __home__
+type: single
